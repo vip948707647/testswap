@@ -2,6 +2,7 @@
   "name": "pancake-frontend",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://vip948707647.github.io/testswap",
   "workspaces": [
     "packages/*"
   ],
