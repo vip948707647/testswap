@@ -1,8 +1,8 @@
 {
   "name": "pancake-frontend",
+  "homepage_url": "https://vip948707647.github.io/testswap",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://vip948707647.github.io/testswap",
   "workspaces": [
     "packages/*"
   ],
@@ -24,7 +24,7 @@
     "prepare": "husky install",
     "postinstall": "yarn run typechain",
     "typechain": "typechain --out-dir src/config/abi/types --target=ethers-v5 \"src/config/abi/*.json\"",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d .next"
   },
   "browserslist": {
     "production": [
